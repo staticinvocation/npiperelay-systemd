@@ -1,0 +1,10 @@
+[Socket]
+ListenStream=%t/openssh-ssh-agent.socket
+
+[NamedPipe]
+Path=//./pipe/openssh-ssh-agent
+TerminateEOFSocket=yes
+NotifyPipeAfterEOF=yes
+
+[Install]
+WantedBy=sockets.target
