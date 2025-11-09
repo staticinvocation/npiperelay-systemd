@@ -1,5 +1,3 @@
-module github.com/albertony/npiperelay
+module github.com/staticinvocation/npiperelay-systemd
 
-go 1.24.0
-
-require golang.org/x/sys v0.37.0
+go 1.24.6

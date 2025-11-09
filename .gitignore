@@ -4,6 +4,9 @@
 *.so
 *.dylib
 
+# Linux binaries
+npiperelay-generator/npiperelay-generator
+
 # Test binary, build with `go test -c`
 *.test
 
@@ -15,3 +18,4 @@
 
 # Visual Studio Code workspace settings
 .vscode/
+
